@@ -1,0 +1,48 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #e0e0e0 ;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+.container-header  > h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+
+
+
+.container-content {
+    background-color: #F8FAFC;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.content-question {
+    padding: 15px;
+}
+
+.content-question > h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
